@@ -1,0 +1,117 @@
+/*styles.css*/
+
+
+/* ----------------------- */
+/*Foundational Style*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.45;
+    background-color: #768CC1;
+
+}
+
+header {
+    font-size: 48px;
+}
+
+section {
+    padding: 40px 40;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none outside none;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* ------------------ */
+/*Color Blocks*/
+
+.header1 {
+    color:#FFFFFF;
+    background-color:#28266D;
+    padding: 30px 0;
+    text-align:center;
+    font-size: 48px;
+}
+
+.whiteblgraytxt {
+    color:#4A4A4A;
+    background-color:#FFFFFF;
+    padding: 30px 0;
+    text-align:center;
+}
+
+.grayblwhitetxt {
+    background: #4A4A4A;
+    color: #FFFFFF;
+}
+
+.blueblwhitetxt {
+    background: #28266D;
+    color:#FFFFFF;
+}
+
+.blog{
+    background-color: rgb(3, 3, 59);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(44, 44, 48);
+    padding: 32px 0;
+    text-align: center;
+    color: #868686;
+}
+
+.essay {
+    text-align: justify;
+    margin: 10%;
+}
+
+/*-------------------------*/
+/*Elements*/
+
+
+.heading3 {
+    font-size: xx-large;
+    color: #FFFFFF;
+}
+
+.btn {
+    display:inline-flexbox;
+    background-color: #4A4A4A;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color:#FFFFFF;
+}
+
+.btn2 {
+    display:inline-flex;
+    background-color:#FFFFFF;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 40 px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.bloglnk {
+    color: rgb(3, 3, 59)
+}
