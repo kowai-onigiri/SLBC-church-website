@@ -14,7 +14,14 @@ body {
 }
 
 header {
+    color:#FFFFFF;
     font-size: 48px;
+    text-shadow: 5px 2px 4px grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("https://southlbc.files.wordpress.com/2012/11/cropped-p10100061.jpg");
+    background-repeat: none;
+    background-size: 100%;
 }
 
 section {
@@ -24,7 +31,7 @@ section {
 
 
 ul {
-    list-style: none outside none;
+    list-style: none inside none;
 }
 
 a {
@@ -37,6 +44,7 @@ a {
 /*Color Blocks*/
 
 .header1 {
+    border-radius: 20px;
     color:#FFFFFF;
     background-color:#28266D;
     padding: 30px 0;
@@ -45,26 +53,41 @@ a {
 }
 
 .whiteblgraytxt {
+    border-radius: 20px;
     color:#4A4A4A;
     background-color:#FFFFFF;
     padding: 30px 0;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align:center;
 }
 
 .grayblwhitetxt {
+    border-radius: 20px;
     background: #4A4A4A;
     color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .blueblwhitetxt {
+    border-radius: 20px;
     background: #28266D;
     color:#FFFFFF;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .blog{
+    border-radius: 20px;
     background-color: rgb(3, 3, 59);
     color: #FFFFFF;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footer {
@@ -88,18 +111,7 @@ a {
     color: #FFFFFF;
 }
 
-.btn {
-    display:inline-flexbox;
-    background-color: #4A4A4A;
-    border: none;
-    border-radius: 30px;
-    padding: 5px 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: x-large;
-    font-weight: bold;
-    color:#FFFFFF;
-}
+
 
 .btn2 {
     display:inline-flex;
@@ -115,3 +127,30 @@ a {
 .bloglnk {
     color: rgb(3, 3, 59)
 }
+
+
+
+nav {
+    height: 50px;
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    display:inline-flexbox;
+    border: 5px solid white;
+    border-radius: 80px;
+    background-color: #768CC1;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: x-large;
+    font-weight: bold;
+    color:#FFFFFF;
