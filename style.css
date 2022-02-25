@@ -9,24 +9,44 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.45;
-    background-color: #768CC1;
+    /* Center the content */
+    align-items: center;
+    display:flow-root;
+    flex-direction:column;
+    justify-content: center;
 
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Background */
+    background: url("https://southlbc.files.wordpress.com/2012/11/cropped-p10100061.jpg") center center / cover no-repeat;
 }
 
-header {
+
+
+
+
+header{
+    background-color: rgba(63, 60, 60, 0.664);
+    text-align: center;
     color:#FFFFFF;
+    font-weight: bolder;
     font-size: 48px;
-    text-shadow: 5px 2px 4px grey;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-image: url("https://southlbc.files.wordpress.com/2012/11/cropped-p10100061.jpg");
-    background-repeat: none;
-    background-size: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    
+    
 }
+
+
+
 
 section {
     padding: 40px 40;
     text-align: center;
+    position: relative;
 }
 
 
@@ -53,6 +73,7 @@ a {
 }
 
 .whiteblgraytxt {
+    margin-top: 20px;
     border-radius: 20px;
     color:#4A4A4A;
     background-color:#FFFFFF;
@@ -82,6 +103,7 @@ a {
 }
 
 .blog{
+    
     border-radius: 20px;
     background-color: rgb(3, 3, 59);
     color: #FFFFFF;
@@ -91,7 +113,7 @@ a {
 }
 
 .footer {
-    background-color: rgb(44, 44, 48);
+    background-color: rgba(63, 60, 60, 0.664);
     padding: 32px 0;
     text-align: center;
     color: #868686;
@@ -148,9 +170,24 @@ nav {
     display:inline-flexbox;
     border: 5px solid white;
     border-radius: 80px;
-    background-color: #768CC1;
+    background-color: rgba(255,255,255,0);
     margin-left: 15px;
     margin-right: 15px;
     font-size: x-large;
     font-weight: bold;
     color:#FFFFFF;
+}
+
+.menu {
+    /* Background color */
+    background-color: rgba(63, 60, 60, 0.6640);
+
+    /* Stick to the top */
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+
+    /* Displayed on top of other rows when scrolling */
+    z-index: 9999;
+}
